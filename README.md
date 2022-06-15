@@ -1,13 +1,14 @@
 ## Project Name
 
-"My Mobile version Portfolio"  is a project design for easy scalebility, accessibity, users friendly etc for so as to navigate through the web without any stress. Best tools and technologies was in high consideration during the ideal nuturing stage, debuging tools check was used('LINTERS') from the planning stage to implemntation stage, so your free and safe ride is guaranty.
+"My Desktop version Portfolio"  is a project design for easy scalebility, accessibity, users friendly etc for so as to navigate through the web without any stress. Best tools and technologies was in high consideration during the ideal nuturing stage, debuging tools check was used('LINTERS') from the planning stage to implemntation stage, so your free and safe ride is guaranty.
 
 It is set up to meet both you needs our needs. 
 
 ## Built With
-The major used for this project are : 
+The major tools used for this project are : 
 HTML,
 CSS.
+Bootstrap
 
 ## Technologies used
 The amazing tecnologies for this project are:
@@ -31,12 +32,13 @@ git
  
  ## Collaborators:
  
-- ## TRACY MUSONGOLE
+- ## Custodio Langa
+- ## 
   ## Social:
  Github:[@Elfin-git](https://github.com/Elfin-git)
  Twitter:[@tracy_muso](https://twitter.com/tracy_muso)
  
-- ## AZIZ RUSMATOV
+- ## Shailli
   ## Social:
  Github:[@AzizRAA](https://github.com/AzizRAA)
  
