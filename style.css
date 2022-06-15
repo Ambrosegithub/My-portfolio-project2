@@ -1,0 +1,42 @@
+#section-left {
+  padding-left: 30px;
+  font-size: 30px;
+  color: #1a2626;
+}
+
+#section3-project {
+  width: 100%;
+  display: flex;
+  gap: 10%;
+  border: red 2px solid;
+  justify-content: space-between;
+}
+
+#section3-right {
+  border: 2px solid black;
+  margin-right: 0;
+}
+
+#desktop7 {
+  height: 300px;
+}
+
+#project-list {
+  height: 600px;
+  background-color: #1a2626;
+  color: #fff;
+}
+
+#project-list2 {
+  width: 50rem;
+  height: 300px;
+  background-color: #1a2626;
+  color: #fff;
+  margin-right: 0%;
+}
+
+#desktop5 {
+  margin-top: 90px;
+  width: 450px;
+  margin-right: 0%;
+}

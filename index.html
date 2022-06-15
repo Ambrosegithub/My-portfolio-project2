@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css">
     <title>My portfolio project2</title>
 </head>
 
@@ -38,8 +39,8 @@
     </nav>
 
     <div class="container-fluid width 100%">
-        <div class="d-flex flex-column ml-5">
-            <div>
+        <div id="section-left" class="d-flex flex-column ml-5">
+            <div class="">
                 <h1 class=".p fw-bold pt-1 pb-5 pl-5 .ml-5">Isigba AMBROSE</h1>
                 <p class="fw-bold pt-1 pb-5 pl-5 .ml-5">
                     Hi there! I'm a passionate software developer, <br />
@@ -60,15 +61,14 @@
               <div class="col "><h2>Projects</h2></div>
               <div class="col mr-0"><img class="align-self-center width-200px" src="./images/image_dots.png" alt=""></div>
               <div class="col-6 mr-0">
-                <img src="./images/desktop7.png" class="card-img-top height:auto" alt="header-image">
-               <div class=".card height:50rem">
-                <h5 class="card-title">Project name goes here</h5>
-                <ul class="card-text">
-                  <li>HTML/CSS</li>
-                  <li>Ruby on Rails</li>
-                  <li>+1</li>
-              </ul>
-                <a href="#" class="btn btn-primary">see this project  &#8594;</a>
+                <img id="desktop7" src="./images/desktop7.png" class="card-img-top height:auto" alt="header-image">
+               <div id="project-list" class=".card height:50rem">
+                <h5 class="card-title m-3">Project name goes here</h5>
+                <ul class="card-text d-flex">
+                  <li class="p-4 bg-success m-lg-2 list-unstyled">HTML/CSS</li>
+                  <li class="p-4 bg-success m-lg-2 list-unstyled">Ruby on Rails</li>
+                  <li class="p-4 text-bg-success m-lg-2 list-unstyled">+1</li>           </ul>
+                <a href="#" class="btn btn-primary m-lg-5">see this project  &#8594;</a>
             </div>
        </div>
      </div>
@@ -83,32 +83,33 @@
         <img src="./images/image-geometry_2.png" alt="">
       </div>
       <div class="col width-50%">
-        <div class="col" >
-            <h5 class="card-title">Project name goes here</h5>
-                <ul class="card-text list-inline">
-                  <li>HTML/CSS</li>
-                  <li>Ruby on Rails</li>
-                  <li>+1</li>
+        <div id="project-list2" class="col m-3" >
+            <h5 class="card-title ml-lg-5 text-start m-3">Project name goes here</h5>
+                <ul class="card-text d-flex p-3">
+                  <li class="p-4 bg-success m-lg-2 list-unstyled">HTML/CSS</li>
+                  <li class="p-4 bg-success m-lg-2 list-unstyled">Ruby on Rails</li>
+                  <li class="p-4 text-bg-success m-lg-2 list-unstyled">+1</li>
               </ul>
                 <a href="#" class="btn btn-primary">see this project  &#8594;</a>
-                
-                <img src="./images/desktop5.png" alt="">
+                <div >
+                <img id="desktop5" class="col mt-0 width-200rem" src="./images/desktop5.png" alt="">
+            </div>
         </div>
       </div>
     </div>
   </div>
-  <div class="container-fluid width-100% d-flex  mt-5">
-    <div class="row d-flex justify-content-between ">
+  <div id="section3-project" class="container-fluid width-100% d-flex justify-content-between mt-5">
+    <div class="row d-flex  ">
 
-      <div class="col width-33%">
+      <div class="col align-self-start">
         <img src="./images/desktop3.png" alt="">
       </div>
 
-      <div class="col width-33%">
+      <div class="col align-self-lg-center">
         <img src="./images/Desktop4.png" alt="">
       </div>
 
-      <div class="col width-33%">
+      <div id="section3-right" class="col align-self-end mr-1">
         <img src="./images/Group-83.png" alt="">
       </div>
     </div>
