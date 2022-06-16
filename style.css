@@ -40,3 +40,67 @@
   width: 450px;
   margin-right: 0%;
 }
+
+#footer-text-color {
+  color: white;
+  height: 70px;
+}
+
+#img-cv {
+  height: 20px;
+  margin: 5px;
+}
+
+#img-social {
+  margin: 1px;
+}
+
+#language {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 8px 2%;
+  position: relative;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./images/hash1.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #1c528a;
+  width: 100%;
+  height: 299px;
+}
+
+#framework {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 8px 2%;
+  border-radius: 4px;
+  color: #f2f2f2;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #e2505c;
+  width: 100%;
+  height: 299px;
+}
+
+#skilss {
+  padding: 0;
+  box-sizing: border-box;
+  margin: 8px 2%;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  background-image: url(./images/ic_skills.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-color: #febf52;
+  width: 100%;
+  height: 289px;
+  margin-top: -10px;
+}
+
